@@ -1,0 +1,52 @@
+Usage
+-----
+
+$ ./convert.py temp 5 c to f
+34.78 Fahrenheit
+
+$ ./convert.py lenght 5 inch to cm
+12.7 cm
+
+
+Classes
+-------
+
+Temperature
+
+Takes an int as value, and type (celsius, fahrenheir,...),
+if different then celcius, convert to celsius and save as self.celsius.
+
+For each system, a method exists to convert to that system.
+
+celsius() returns .celsius
+fahrenheit() returns .celsius converted to fahrenheit
+kalvin()
+rankein()
+
+
+
+
+Lenght 
+
+Next step
+
+
+
+
+
+
+
+Functions
+---------
+
+Defined in app,
+to call the returns of the classes in a nice sentence.
+
+Also, to understand the given args.
+
+
+
+Main app
+--------
+
+simple logic that calls the functions
