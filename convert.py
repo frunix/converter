@@ -47,6 +47,8 @@ def main():
   # actual programm
   if subject == 'temp' or subject == 'temperature':
     processtemp(amount, inputunit, outputunit)
+  elif subject == 'lenght':
+    processlenght(amount, inputunit, outputunit)
   else:
     print subject, 'not supported (yet?)'
 

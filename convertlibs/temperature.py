@@ -23,7 +23,7 @@ class Temperature:
   """
 
 
-  def __init__(self, temperature=0, system='c', rounding=2):
+  def __init__(self, temperature=0, system='celsius', rounding=2):
     self.__temperature = temperature
     self.__system = system
     self.__rounding = int(round(rounding))
